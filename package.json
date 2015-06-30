@@ -1,0 +1,16 @@
+{
+  "name": "praytime-fr",
+  "version": "0.1.0",
+  "description": "Accurate prayer time calculation for France",
+  "author": "Emmanuel ATSE <emmanuel.atse@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kratos714/praytime-fr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.2.0"
+  }
+}
