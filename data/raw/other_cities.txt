@@ -1,0 +1,18 @@
+From Paris :
+Melun : - 1 mn
+Meaux : - 2 mn
+Chalon/Marne : - 8 mn
+Chartres : + 3 mn
+Nogent/Seine : - 5 mn
+
+From Lille :
+Lens : + 1 mn
+Arras : + 1 mn
+Douai : 0 mn
+Valenciennes : - 2 mn
+
+From Rouen :
+Beauvais : - 4 mn
+Le Havre : + 4 mn
+Caen : + 6 mn
+Bayeux : + 7 mn
