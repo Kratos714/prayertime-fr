@@ -16,3 +16,9 @@ Beauvais : - 4 mn
 Le Havre : + 4 mn
 Caen : + 6 mn
 Bayeux : + 7 mn
+
+From Metz :
+Forbach : - 3 mn
+Thionville : 0 mn
+Verdun : + 3 mn
+Reims : + 9 mn
