@@ -1,5 +1,3 @@
-var util = require('util');
-
 function add_city_data(city, data, name, lat, lon){
   var obj = {
     city : name,
