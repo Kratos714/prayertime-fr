@@ -1,3 +1,21 @@
+function isSummerHour(date){
+  var march = new Date(Date.UTC(date.getFullYear(), 2, 31));
+  var october = new Date(Date.UTC(date.getFullYear(), 9, 31));
+
+  for (var lastSundayOfMarch = 31; march.getDay() != 0; march.setUTCDate(--lastSundayOfMarch));
+  for (var lastSundayOfOctober = 31; october.getDay() != 0; october.setUTCDate(--lastSundayOfOctober));
+
+  return (date.getTime() >= march.getTime() && date.getTime() < october.getTime());
+}
+
+//Convert all times to GMT + 1
+function tuneTime(time, monthNb, dayNb){
+  if (!isSummerHour(new Date(Date.UTC(2015, monthNb, dayNb))))
+    return (time);
+  time = (time.split('h')[0] * 1 - 1)  + 'h' + time.split('h')[1];
+  return (time);
+}
+
 function add_city_data(city, data, name, lat, lon){
   var obj = {
     city : name,
@@ -6,13 +24,15 @@ function add_city_data(city, data, name, lat, lon){
     times : []
   };
   var month = [];
+  var monthNb = 0;
 
   for (var i = 0; i < city.length; i += 6){
     if (city[i] === "1" && !(month.length == 0)){
       obj.times.push(month);
+      ++monthNb;
       month = [];
     }
-    month.push(city[i + 1]);
+    month.push(tuneTime(city[i + 1], monthNb, city[i] * 1));
   }
   obj.times.push(month);
   data.push(obj);
