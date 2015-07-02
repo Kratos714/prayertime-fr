@@ -29,3 +29,22 @@ Bar-le-Duc : + 11 mn
 Troyes : + 15 mn
 Toul : + 8 mn
 Saint-Dizier : + 11 mn
+
+From Orléans :
+Rennes : + 15 mn
+Auxerre : - 7 mn
+Le Mans : + 7 mn
+Laval : + 11 mn
+
+From Mulhouse :
+Belfort : + 2 mn
+Langres : + 7 mn
+Epinal : + 4 mn
+Chaumont : + 10 mn
+St-Die : + 2 mn
+
+From Tours :
+Angers : + 5 mn
+Nantes : + 10 mn
+Bourges : - 5 mn
+Cholet : + 8 mn
