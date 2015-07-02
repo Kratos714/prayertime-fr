@@ -48,3 +48,22 @@ Angers : + 5 mn
 Nantes : + 10 mn
 Bourges : - 5 mn
 Cholet : + 8 mn
+
+From Besançon :
+Dijon : + 4 mn
+Nevers : + 12 mn
+Château-Chinon : + 9 mn
+Pontarlier : 0 mn
+
+From Poitiers :
+Niort : + 4 mn
+Macon : - 17 mn
+Châtellerault : - 1 mn
+Montluçon : - 8 mn
+
+From Clermont-Ferrand :
+Limoges : + 7 mn
+Vichy : - 3 mn
+Angoulême : + 13 mn
+La Rochelle : + 16mn
+
