@@ -1,3 +1,9 @@
+From Amiens :
+Dieppe : + 5 mn
+Péronne : - 10 mn
+Charleville-Mézières : + 5mn
+Cherbourg : + 15mn
+
 From Paris :
 Melun : - 1 mn
 Meaux : - 2 mn
@@ -67,3 +73,29 @@ Vichy : - 3 mn
 Angoulême : + 13 mn
 La Rochelle : + 16mn
 
+From Lyon :
+Saint Etienne : + 2 mn
+Roanne : + 4 mn
+Annecy : - 5 mn
+Chalons sur Saône : + 1 mn
+Chambéry : - 5 mn
+
+From Bordeaux :
+Le Puy : - 15 mn
+Rodez : - 13 mn
+Valence : - 22 mn
+
+From Toulouse :
+Montpellier : - 10 mn
+Albi : - 2 mn
+Perpignan : - 6 mn
+Foix : + 1 mn
+Pau : + 7 mn
+Carcassonne : - 4 mn
+
+From Marseille :
+Nice : - 7 mn
+Draguignan : - 4 mn
+Toulon : - 3 mn
+Nîmes : + 5 mn
+Avignon : + 3 mn
