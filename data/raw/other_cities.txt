@@ -22,3 +22,10 @@ Forbach : - 3 mn
 Thionville : 0 mn
 Verdun : + 3 mn
 Reims : + 9 mn
+
+From Strasbourg :
+Nancy : + 7 mn
+Bar-le-Duc : + 11 mn
+Troyes : + 15 mn
+Toul : + 8 mn
+Saint-Dizier : + 11 mn
