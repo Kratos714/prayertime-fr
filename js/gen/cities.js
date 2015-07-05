@@ -40,6 +40,7 @@ function isSummerHour(date){
   return (date.getTime() >= march.getTime() && date.getTime() < october.getTime());
 }
 
+//Convert all times to GMT + 1
 function tuneTime(time, monthNb, dayNb){
   if (!isSummerHour(new Date(Date.UTC(2015, monthNb, dayNb))))
     return (time);
@@ -72,7 +73,7 @@ function add_city_data(city, data, name, lat, lon){
 var prayertime_fr_data = [];
 add_city_data(prayertime_fr_amiens, prayertime_fr_data, "amiens", 49.90095321859007, 2.290074455386684);
 add_city_data(prayertime_fr_besancon, prayertime_fr_data, "besancon", 47.25538722494024, 6.0194869649423115);
-add_city_data(prayertime_fr_bordeaux, prayertime_fr_data, "bordeaux", 44.85724453514966, 0.5736967811598869);
+add_city_data(prayertime_fr_bordeaux, prayertime_fr_data, "bordeaux", 44.85724453514966, -0.5736967811598869);
 add_city_data(prayertime_fr_clermont_ferrand, prayertime_fr_data, "clermont_ferrand", 45.785649299085584, 3.1155454290268803);
 add_city_data(prayertime_fr_lille, prayertime_fr_data, "lille", 50.631718316778176, 3.0478327231208246);
 add_city_data(prayertime_fr_lyon, prayertime_fr_data, "lyon", 45.7699284396584, 4.829224649781766);

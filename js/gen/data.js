@@ -796,7 +796,7 @@ var prayertime_fr_data = [
   {
     "city": "bordeaux",
     "latitude": 44.85724453514966,
-    "longitude": 0.5736967811598869,
+    "longitude": -0.5736967811598869,
     "times": [
       [
         "6h54",
