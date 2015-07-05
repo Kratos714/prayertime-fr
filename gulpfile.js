@@ -9,7 +9,7 @@ gulp.task('gen', function(){
 });
 
 gulp.task('default', function(){
-  var srcs = ['js/lib/*.js', 'js/gen/data.js'];
+  var srcs = ['js/lib/*.js', 'js/gen/data.js', 'js/prayertime-fr.js'];
   var js = gulp.src(srcs)
     .pipe(uglify({preserveComments:'some'}))
     .pipe(concat('prayertime-fr.min.js'))
