@@ -2,6 +2,7 @@
 Accurate prayer time calculation for France
 
 Using PrayTimes.js from http://praytimes.org
+
 Using latlon-spherical.js from https://github.com/chrisveness/geodesy
 
 View all cities where Fajr prayer has been Observed by eye on the map : http://www.zeemaps.com/view?group=1520089
