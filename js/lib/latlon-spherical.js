@@ -1,7 +1,7 @@
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
-/*  Latitude/longitude spherical geodesy formulae & scripts           (c) Chris Veness 2002-2015  */
-/*   - www.movable-type.co.uk/scripts/latlong.html                                   MIT Licence  */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    Latitude/longitude spherical geodesy formulae & scripts           (c) Chris Veness 2002-2015
+     - www.movable-type.co.uk/scripts/latlong.html                                   MIT @license
+   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 'use strict';
 // if (typeof module!='undefined' && module.exports) var Dms = require('./dms'); // CommonJS (Node)
